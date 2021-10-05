@@ -61,8 +61,7 @@
 
 /obj/item/organ/ears/cat
 	name = "cat ears"
-	icon = 'icons/obj/clothing/hats.dmi'
-	icon_state = "kitty"
+	icon_state = "ears-cat"
 	damage_multiplier = 2
 
 /obj/item/organ/ears/cat/Insert(mob/living/carbon/human/ear_owner, special = 0, drop_if_replaced = TRUE)
@@ -115,8 +114,21 @@
 	desc = "An advanced cybernetic ear, surpassing the performance of organic ears."
 	damage_multiplier = 0.5
 
+/obj/item/organ/ears/cybernetic/catears
+	name = "cybernetic cat ears"
+	icon_state = "ears-cat-c"
+	desc = "A basic cybernetic organ designed to mimic the operation of cat ears."
+	damage_multiplier = 1.9
+
+/obj/item/organ/ears/cybernetic/catears/upgraded
+	name = "upgraded cybernetic cat ears"
+	icon_state = "ears-cat-c-u"
+	desc = "An advanced cybernetic ear, surpassing the performance of organic cat ears."
+	damage_multiplier = 0.95
+
 /obj/item/organ/ears/cybernetic/emp_act(severity)
 	. = ..()
 	if(. & EMP_PROTECT_SELF)
 		return
 	damage += 40/severity
+
