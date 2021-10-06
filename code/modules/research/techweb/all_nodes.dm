@@ -1108,6 +1108,7 @@
 	prereq_ids = list("biotech")
 	design_ids = list(
 		"cybernetic_ears",
+		"cybernetic_cat_ears",
 		"cybernetic_eyes_improved",
 		"cybernetic_heart_tier2",
 		"cybernetic_liver_tier2",
@@ -1123,6 +1124,7 @@
 	prereq_ids = list("adv_biotech", "cyber_organs")
 	design_ids = list(
 		"cybernetic_ears_u",
+		"cybernetic_cat_ears_u",
 		"cybernetic_heart_tier3",
 		"cybernetic_liver_tier3",
 		"cybernetic_lungs_tier3",

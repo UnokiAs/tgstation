@@ -662,6 +662,28 @@
 	category = list("Cybernetics", "Medical Designs")
 	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
 
+/datum/design/cybernetic_cat_ears
+	name = "Cybernetic Cat Ears"
+	desc = "A pair of cybernetic cat ears."
+	id = "cybernetic_cat_ears"
+	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
+	construction_time = 30
+	materials = list(/datum/material/iron = 250, /datum/material/glass = 400)
+	build_path = /obj/item/organ/ears/cybernetic/catears
+	category = list("Cybernetics", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
+/datum/design/cybernetic_cat_ears_u
+	name = "Upgraded Cybernetic Cat Ears"
+	desc = "A pair of upgraded cybernetic cat ears."
+	id = "cybernetic_cat_ears_u"
+	build_type = PROTOLATHE | AWAY_LATHE | MECHFAB
+	construction_time = 40
+	materials = list(/datum/material/iron = 500, /datum/material/glass = 500, /datum/material/silver = 500)
+	build_path = /obj/item/organ/ears/cybernetic/catears/upgraded
+	category = list("Cybernetics", "Medical Designs")
+	departmental_flags = DEPARTMENTAL_FLAG_MEDICAL
+
 /datum/design/cybernetic_eyes
 	name = "Basic Cybernetic Eyes"
 	desc = "A basic pair of cybernetic eyes."
